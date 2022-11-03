@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background:#1d2026;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav .mlogo{
+    width: 100px;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 25px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px ;
+}
+
+.page-container h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 5%;
+    
+}
+
+.navbar .fa{
+    margin: 8px;
+}
+
+.path .ipath{
+    display: inline-block;
+    margin: 0 110px;
+    margin-top: 80px;
+}
+
+.path .ipath h5{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.path img{
+
+    width: 200px;
+}
