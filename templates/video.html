@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
     <link rel="stylesheet" href="{{url_for('static',filename='css/styles2.css')}}">
     <script src="https://use.fontawesome.com/522d9f8ab6.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static',filename='images/apple-touch-icon.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{url_for('static',filename='images/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{url_for('static',filename='images/favicon-16x16.png')}}">
+    <link rel="manifest" href="/site.webmanifest">
 
 </head>
 <body>
@@ -35,8 +39,8 @@
                 </ul>
             </nav>
         </div>
-        <div class="wrapper">
-            <iframe src="{{ val }}" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video_wrapper">
+            <img src="{{url_for('video_feed')}}" alt="ivideo">
         </div>
     </div>
 </body>
