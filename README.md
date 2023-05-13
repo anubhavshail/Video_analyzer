@@ -26,4 +26,51 @@ Home Page
 
 ![Intelligent Video Survillance System - Google Chrome 13-05-2023 16_02_25](https://github.com/anubhavshail/Video_analyzer/assets/75006992/9d804ec4-5de1-4bdf-a9ef-671a03284c31)
 
+Fall Detection Page
 
+![Intelligent Video Survillance System - Google Chrome 13-05-2023 16_03_48](https://github.com/anubhavshail/Video_analyzer/assets/75006992/8b902dcc-8019-4dfd-8e68-afe869c021b9)
+
+![Intelligent Video Survillance System - Google Chrome 13-05-2023 16_04_33](https://github.com/anubhavshail/Video_analyzer/assets/75006992/ef993998-5f9b-4ea7-b987-63bc54f76b2c)
+
+Car Crash Detection Page
+
+![Intelligent Video Survillance System - Google Chrome 13-05-2023 16_04_49](https://github.com/anubhavshail/Video_analyzer/assets/75006992/d286b8b5-1cd4-427d-951b-6dd5f847c1f2)
+![Intelligent Video Survillance System - Google Chrome 13-05-2023 16_06_25](https://github.com/anubhavshail/Video_analyzer/assets/75006992/dd4d08b6-12e9-4141-9c65-551583380141)
+
+Social Distancing Detection Page
+
+![Intelligent Video Survillance System - Google Chrome 13-05-2023 16_07_01](https://github.com/anubhavshail/Video_analyzer/assets/75006992/412ae985-3275-409a-a214-cf39f94dc80a)
+![social - Notepad 13-05-2023 16_10_15](https://github.com/anubhavshail/Video_analyzer/assets/75006992/a90eaf84-1fdf-4dc4-bf8b-9dc53fa62be5)
+
+Object Detection Page
+
+![Intelligent Video Survillance System - Google Chrome 13-05-2023 16_10_48](https://github.com/anubhavshail/Video_analyzer/assets/75006992/ba7cfedc-399e-4e35-b8c3-850619efe319)
+
+![Intelligent Video Survillance System - Google Chrome 13-05-2023 16_11_12](https://github.com/anubhavshail/Video_analyzer/assets/75006992/b0abde0a-595b-427b-9fc0-1a4e9f569b34)
+
+# File Structure
+
+.
+└── YOLOv4
+    └── darknet-master
+        └── build
+            └── darknet
+                └── x64
+                    ├── env
+                    ├── static
+                    │   ├── css
+                    │   │   ├── styles.css
+                    │   │   ├── styles1.css
+                    │   │   └── styles2.css
+                    │   └── images
+                    ├── templates
+                    │   ├── CarCrashDetection.html
+                    │   ├── FallDetection.html
+                    │   ├── index.html
+                    │   ├── ObjectDetection.html
+                    │   ├── SocialDistancingDetection.html
+                    │   └── video.html
+                    ├── a.py
+                    ├── app.py
+                    ├── object.py
+                    └── requirements
