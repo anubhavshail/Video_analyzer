@@ -1,4 +1,4 @@
-# Inttelligent Video Surveillance System using YOLO and OpenCV
+# Intelligent Video Surveillance System using YOLO and OpenCV
 
 This is a project to perform object detection, fall detection, car crash detection and social distancing detection.
 
